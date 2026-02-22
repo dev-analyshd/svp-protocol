@@ -1,0 +1,27 @@
+{
+  "name": "svp-sdk",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for SVP Protocol: contract methods, events, and utilities.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src --ext .ts,.tsx",
+    "format": "prettier --write src"
+  },
+  "keywords": ["svp", "sdk", "web3", "ethers", "typescript"],
+  "author": "SVP Protocol",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "@types/jest": "^29.5.4",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5"
+  }
+}
